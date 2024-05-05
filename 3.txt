@@ -85,3 +85,16 @@ if __name__ == "__main__":
     block5.mine_block(5)
     print("Nonce for 5 zeros prefix:", block5.nonce)
 ----------------------------------------------------------------
+Imports the necessary modules hashlib for cryptographic hashing functions and datetime for timestamping.
+Defines a class Block to represent each block in the blockchain. It contains attributes like index, timestamp, data, previous hash, nonce, and hash.
+Defines a method calculate_hash() within the Block class to calculate the hash of a block using SHA-256.
+Defines a method mine_block() within the Block class to perform proof of work by finding a hash with a certain number of leading zeros.
+Defines a class Blockchain to manage the blockchain. It initializes with the genesis block and sets the difficulty level for mining.
+Defines a method create_genesis_block() within the Blockchain class to create the genesis block of the blockchain.
+Defines a method get_latest_block() within the Blockchain class to return the latest block in the blockchain.
+Defines a method add_block() within the Blockchain class to add a new block to the blockchain, including setting the previous hash and mining the block.
+Defines a method is_chain_valid() within the Blockchain class to check the validity of the blockchain by verifying block hashes and previous hashes.
+Ensures that the following code is only executed when the script is run directly, not when it's imported as a module.
+Creates a blockchain, adds two blocks with sample transaction data, and prints a success message.
+Checks the validity of the blockchain and prints the result.
+Demonstrates solving cryptographic puzzles by mining blocks with different difficulty levels (4 zeros and 5 zeros) and printing the resulting nonces.
