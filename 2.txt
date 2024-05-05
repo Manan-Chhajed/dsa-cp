@@ -1,0 +1,8 @@
+Lab 2: Blockchain Primitives- Cryptosystems
+Task 1: Perform the cryptographic hash functions md5 and SHA
+Task 2: Demonstrate the properties of Cryptographic hash functions.
+Task 3: Use the Pymerkel library to compute the hash of transactions.
+Task 4: Compute the Root hash (Merkle Root) for 11 transactions.
+--------------------------------------------------------------------
+
+--------------------------------------------------------------------
