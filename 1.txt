@@ -114,6 +114,15 @@ openssl pkcs12 -export -out certificate.pfx -inkey private_key.pem -in certifica
 7. Follow the prompts to import the certificate, including entering the password you set during the PKCS#12 conversion process.
 8. Once imported, close and reopen Chrome.
 ----------------------------------------------------
+
+
+
+
+
+
+
+
+
 To create a digital signature using OpenSSL, you'll typically follow these steps:
 1. Generate a key pair: If you haven't already generated a key pair, you'll need to do so. You can generate a private key and its corresponding public key using OpenSSL.
 2. Create a digest of the data: Before signing the data, you need to create a cryptographic hash (digest) of the data. This ensures integrity and provides a fixed-length representation of the data.
