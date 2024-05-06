@@ -4,6 +4,7 @@ Task 2: Use and demonstrate ganache-cli ethereum test network
 Task 3: Configure node.js and Web3.js
 Task 4: Use Web3.js to transfer Ether from one account to another.
 
+ganache-cli
 npm init -y
 npm install web3@1.5.3
 
